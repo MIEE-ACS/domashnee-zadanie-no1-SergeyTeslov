@@ -29,7 +29,7 @@ namespace ConsoleApp1
             try {
                 val = int.Parse(userInput);
             }
-            except {
+            catch {
                 Console.WriteLine("not a number entered");
                 return;
             }

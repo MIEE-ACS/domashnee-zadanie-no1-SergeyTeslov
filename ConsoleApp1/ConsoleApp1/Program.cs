@@ -25,8 +25,10 @@ namespace ConsoleApp1
             //проверка введёных данных 
             //start            
             Int32 val;
-            if (!Int32.TryParse(userInput, out val))
-            {
+            try {
+                val = int.Parse(userInput);
+            }
+            except {
                 Console.WriteLine("not a number entered");
                 return;
             }

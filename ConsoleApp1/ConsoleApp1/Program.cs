@@ -14,6 +14,7 @@ public enum daysOfTheWeek
 namespace ConsoleApp1
 {
     //правочка
+    //поправочка
     class Program
     {
         static void functionNumberOfDays() 
